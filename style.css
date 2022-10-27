@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /*background-color: #0b0c1e;*/
+}
+
+.conteiner {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+nav .logo {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: aqua;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .img {
+    width: 50%;
+    padding: 40px;
+}
+
+main .img img {
+    width: 100%;
+}
+
+main .conteiner {
+    width: 50%;
+    color: blue;
+}
+
+main ,.conteiner h1 {
+    font-size: 1.7em;
+}
+
+main .conteiner p {
+    margin-top: 30px;
+    font-size: 0.7em;
+}
+
+main .conteiner .grupo-bottoes button {
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: 0.7em;
+    cursor: pointer;
+    border: none;
+    color: brown;
+}
+
+main .conteiner .grupo-bottoes button:first-child {
+    box-shadow: 0 0 20px #ff3e6ea8;
+    background: linear-gradient(#ff3e6e, #be2d6e);
+}
+
+main .conteiner .grupo-bottoes button:last-child {
+    box-shadow: 0 0 20px #6edbf97e;
+    background: linear-gradient(#6edcf9, #1c60a0);
+}
