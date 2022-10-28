@@ -26,11 +26,19 @@ nav {
     margin-top: 25px;
 }
 
-nav .logo {
-    font-size: 2em;
+nav .logo a{
+    font-size: 3em;
     font-weight: 700;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: rgb(110, 220, 249);
 }
 
 nav ul {
@@ -50,6 +58,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color: rgb(110, 220, 249);
+}
+
 main {
     display: flex;
     align-items: center;
@@ -67,14 +79,15 @@ main .img img {
 
 main .conteiner {
     width: 50%;
-    color: rgb(255, 255, 255);
 }
 
 main ,.conteiner h1 {
+    color: rgb(110, 220, 249);
     font-size: 1.7em;
 }
 
 main .conteiner p {
+    color: white;
     margin-top: 30px;
     font-size: 0.7em;
 }
